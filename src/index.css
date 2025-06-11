@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-navy-900 text-slate-200 font-body;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-navy-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-400 rounded-lg;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-teal-400;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-6 sm:px-12 lg:px-24 xl:px-32;
+  }
+
+  .section-spacing {
+    @apply py-20 lg:py-32;
+  }
+
+  .btn-primary {
+    @apply bg-transparent border-2 border-teal-400 text-teal-400 px-6 py-3 rounded-md font-medium text-sm tracking-wider uppercase transition-all duration-300 hover:bg-teal-400 hover:bg-opacity-10 hover:shadow-lg hover:shadow-teal-400/20;
+  }
+
+  .btn-secondary {
+    @apply bg-teal-400 text-navy-900 px-6 py-3 rounded-md font-medium text-sm tracking-wider uppercase transition-all duration-300 hover:bg-teal-500 hover:shadow-lg hover:shadow-teal-400/30;
+  }
+
+  .card {
+    @apply bg-navy-800 border border-navy-700 rounded-lg p-6 transition-all duration-300 hover:border-teal-400/50 hover:shadow-lg hover:shadow-teal-400/10;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-teal-400 to-slate-200 bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+} 

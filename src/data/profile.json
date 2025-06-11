@@ -1,0 +1,20 @@
+{
+  "name": "Solomon Nackashi",
+  "tagline": "Mechanical Engineer at Georgia Tech specializing in automation and robotics",
+  "bio": "Hi! I'm a Georgia Tech mechanical engineering student with a passion for automation and robotics. I focus on designing and building systems that bridge the gap between mechanical systems and intelligent automation. My work spans from prototype development to full-scale automated solutions.",
+  "profileImage": "/images/profile.jpg",
+  "interests": [
+    "Robotics & Automation",
+    "Mechanical Design",
+    "Control Systems",
+    "3D Printing & Manufacturing",
+    "Machine Learning Applications",
+    "Embedded Systems"
+  ],
+  "lookingFor": [
+    "Full-time opportunities in robotics and automation engineering starting 2025",
+    "Internships in mechanical engineering and robotics",
+    "Collaborative projects in automation and manufacturing",
+    "Research opportunities in advanced manufacturing"
+  ]
+} 

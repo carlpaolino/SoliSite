@@ -1,0 +1,40 @@
+[
+  {
+    "id": "automated-manufacturing-cell",
+    "title": "Automated Manufacturing Cell",
+    "blurb": "Designed and built a fully automated manufacturing cell using industrial robots and PLC control systems for precision assembly operations.",
+    "descriptionMD": "This project involved designing a complete automated manufacturing solution for small-scale precision assembly. The system integrates:\n\n- **Industrial Robot Arm**: 6-axis ABB robot for pick-and-place operations\n- **Vision System**: Computer vision for quality control and part alignment\n- **PLC Control**: Siemens S7-1200 for process control and safety systems\n- **Conveyor Integration**: Automated material handling and sorting\n\nThe system achieved 95% uptime and reduced assembly time by 60% compared to manual operations.",
+    "tech": ["SolidWorks", "ABB RobotStudio", "Siemens TIA Portal", "Python", "OpenCV"],
+    "image": "/images/projects/manufacturing-cell.jpg",
+    "githubUrl": "https://github.com/solomonnackashi/automated-manufacturing",
+    "demoUrl": "https://youtu.be/demo-video"
+  },
+  {
+    "id": "robotic-arm-controller",
+    "title": "Custom Robotic Arm Controller",
+    "blurb": "Developed a custom 6-DOF robotic arm with advanced control algorithms and real-time path planning capabilities.",
+    "descriptionMD": "Built from the ground up, this robotic arm features:\n\n- **Mechanical Design**: Custom 6-DOF configuration with aluminum construction\n- **Control System**: Real-time inverse kinematics and trajectory planning\n- **User Interface**: Custom GUI for programming and operation\n- **Safety Features**: Emergency stops, collision detection, and workspace limits\n\nThe arm can handle payloads up to 2kg with ±0.5mm repeatability accuracy.",
+    "tech": ["MATLAB/Simulink", "Arduino", "C++", "Qt", "Fusion 360"],
+    "image": "/images/projects/robotic-arm.jpg",
+    "githubUrl": "https://github.com/solomonnackashi/robotic-arm-controller"
+  },
+  {
+    "id": "smart-greenhouse-automation",
+    "title": "Smart Greenhouse Automation System",
+    "blurb": "IoT-enabled greenhouse automation system with climate control, irrigation management, and crop monitoring capabilities.",
+    "descriptionMD": "A comprehensive automation solution for greenhouse management:\n\n- **Environmental Control**: Automated temperature, humidity, and light control\n- **Irrigation System**: Soil moisture-based watering with nutrient injection\n- **Monitoring Dashboard**: Real-time data visualization and remote monitoring\n- **Machine Learning**: Predictive analytics for optimal growing conditions\n\nReduced water usage by 40% and increased crop yield by 25% in field testing.",
+    "tech": ["Raspberry Pi", "Arduino", "Python", "React", "MongoDB", "TensorFlow"],
+    "image": "/images/projects/greenhouse.jpg",
+    "githubUrl": "https://github.com/solomonnackashi/smart-greenhouse",
+    "demoUrl": "https://greenhouse-demo.netlify.app"
+  },
+  {
+    "id": "autonomous-inspection-drone",
+    "title": "Autonomous Inspection Drone",
+    "blurb": "Developed an autonomous drone system for infrastructure inspection with computer vision and automated flight path planning.",
+    "descriptionMD": "An autonomous drone platform for industrial inspection:\n\n- **Flight Control**: Custom flight controller with GPS and obstacle avoidance\n- **Computer Vision**: Automated defect detection using deep learning\n- **Data Collection**: High-resolution imaging and thermal analysis\n- **Reporting System**: Automated inspection reports with GPS-tagged findings\n\nSuccessfully inspected over 50 industrial structures with 90% defect detection accuracy.",
+    "tech": ["PX4", "ROS", "Python", "TensorFlow", "OpenCV", "MAVLink"],
+    "image": "/images/projects/inspection-drone.jpg",
+    "githubUrl": "https://github.com/solomonnackashi/autonomous-inspection-drone"
+  }
+] 
